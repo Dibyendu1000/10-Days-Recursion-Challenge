@@ -4,7 +4,7 @@ from collections import *
 from math import *
 
 
-def findKthElement(arr1, arr2, k, i=0, j=0, lastIndex=''):
+def findKthElement(arr1, arr2, k):
     # Write your code here.
     i, j = 0, 0
     while (i < len(arr1) and j < len(arr2)):
